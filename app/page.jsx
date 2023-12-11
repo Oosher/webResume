@@ -6,6 +6,8 @@ import he from './languages/he.json'
 import en from './languages/en.json'
 import { useEffect, useState } from "react";
 import AboutMe from "./components/AboutMe";
+import PersonalInfo from "./components/PersonalInfo";
+import Experience from "./components/Experience";
 
 export default function Home() {
 
@@ -45,5 +47,7 @@ const [translatedContent ,setTranslatedContent] =useState({});
       </div>
       <div className="verticalLine"></div>
       <AboutMe translation={translatedContent.aboutMe}/>
+      <PersonalInfo translation={translatedContent.personalInfo}/>
+      <Experience translation={translatedContent.experience}/>
     </div>
   }

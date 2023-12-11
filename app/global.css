@@ -12,7 +12,33 @@
     min-height: 100vh;
 } 
 
+h1 {
+    font-size: 5rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:normal;
+    letter-spacing: 11px ;
+    color: rgb(79, 79, 79);
+    margin-left: 70px;
+}
 
+p {
+    font-size: 1.7rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:normal;
+    letter-spacing: 1px ;
+    line-height: 3rem;
+    color: rgb(105, 105, 105);
+    margin-left: 70px;
+}
+
+
+h3 {
+    font-size: 2rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    color: rgb(79, 79, 79); 
+    margin-left: 70px;
+}
 .title {
     display: flex;
     margin-top: 7vh;
@@ -21,8 +47,8 @@
     height: 30vh;
     justify-content: center;   
     align-items: center;
+   
 }
-
 
 
 .title h1{
@@ -31,13 +57,13 @@
     font-weight:lighter;
     letter-spacing: 11px ;
     color: rgb(79, 79, 79);
+    margin-left: 0px;
 }
+
 .title h3{
-    font-size: 3rem;
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight:bold;
+    
     letter-spacing: 11px ;
-    color: rgb(79, 79, 79); 
+    margin-left: 0px;
 }
 
 .verticalLine {
@@ -50,9 +76,58 @@
 
 }
 
+
+.horizontalLine{
+    background: #434343;
+    margin-top: 3vh;
+    border-radius: 3px;
+    height:  4px;
+    width: 95%;
+}
+
 .aboutMe {
     display: flex;
     flex-direction: column;
     grid-column: 3/4;
     grid-row:2/3 ;
+}
+
+.personalInfo {
+    display: flex;
+    flex-direction: column;
+    color:  rgb(105, 105, 105);
+    
+}
+
+.personalInfo div{
+    display:flex;
+    align-items: center;
+
+    margin-left: 10vw;
+    margin-top: 1vh;
+}
+
+.personalInfo a {
+    
+    color:  rgb(105, 105, 105); ;
+}
+
+
+.personalInfo p {
+    margin-left: 25px;
+}
+
+.personalInfo .horizontalLine{
+   justify-self: right;
+   align-self: flex-end;
+   width: 75%;
+   margin-top: 3vh;
+}
+
+
+
+.experience{
+
+    grid-column: 3/4;
+    grid-row:3/4 ;
 }

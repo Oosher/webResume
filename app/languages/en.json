@@ -5,6 +5,18 @@
     },
     "aboutMe":{
         "Title":"About Me",
-        "Description":"Highly motivated and skilled Full Stack Developer with a strongbackground in practical engineering and IT management. Eager tocontribute my technical expertise and passion for web development tocreate innovative solutions. Adept at utilizing a wide range ofprogramming languages and tools to build dynamic and responsiveapplications."
+        "Description":"Highly motivated and skilled Full Stack Developer with a strong background in practical engineering and IT management. Eager to contribute my technical expertise and passion for web development to create innovative solutions. Adept at utilizing a wide range of programming languages and tools to build dynamic and responsive applications."
+    },
+    "personalInfo":{
+        "Location":"33 savion st , Geva Benyamin"
+
+    },
+    "experience":{
+        "Title":"EXPERIENCE",
+        "Subtitle1":"FULLSTACK DEVELOPMENT",
+        "Present":"Present",
+        "Description1":"Backend development and designee RestApi with express router Mongoose communications and synchronization Frontend React and typescript web development  Frontend widgets and other reactive content includingcomments image and video uploads etc...  Communication with the Backend using redux-saga",
+        "Subtitle2":"FIELD TECHNICIAN",
+        "Description2":"Provided technical support and troubleshooting for varioushardware and software issues. Developed strong problem-solving and analytical skills."
     }
 }
