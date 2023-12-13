@@ -15,8 +15,35 @@
         "Title":"EXPERIENCE",
         "Subtitle1":"FULLSTACK DEVELOPMENT",
         "Present":"Present",
-        "Description1":"Backend development and designee RestApi with express router Mongoose communications and synchronization Frontend React and typescript web development  Frontend widgets and other reactive content includingcomments image and video uploads etc...  Communication with the Backend using redux-saga",
+        "Description1":"Backend development and designee RestApi with express router Mongoose communications and synchronization - Frontend React and typescript web development  - Frontend widgets and other reactive content includingcomments image and video uploads etc... - Communication with the Backend using redux-saga",
         "Subtitle2":"FIELD TECHNICIAN",
-        "Description2":"Provided technical support and troubleshooting for varioushardware and software issues. Developed strong problem-solving and analytical skills."
+        "Description2":"Provided technical support and troubleshooting for varioushardware and software issues. - Developed strong problem-solving and analytical skills."
+    },
+    "skills":{
+        "Title":"SKILLS",
+        "Type1":"Programming Languages:",
+        "Type2":"Front-End:",
+        "Type3":"Back-End:",
+        "Type4":"Databases:",
+        "Type5":"Version Control:",
+        "Type6":"Web Technologies:"
+    },
+    "education":{
+        "Title":"EDUCATION" ,
+        "Institution1":"HACKERU",
+        "Description1":"Full-stack development",
+        "Institution2":"AZRIELI COLLEGE OFENGINEERING IN JERUSALEM",
+        "Description2":"1 year of computer engineering",
+        "Institution3":"ORT GIVAT RAM COLLAGE",
+        "Description3":"Bachelor's Degree in PracticalEngineering (Electronics)"
+    },
+    "projects":{
+        "Title":"PROJECTS",
+        "Proj1":"NOVIOPUS - STARTUP",
+        "Description1":"An integrated job search platform featuring distinct user interfaces forjob seekers and hiring companies, coupled with robust marketing andadvertising functionalities.",
+        "Proj2":"ONLINE SHOP TEMPLATE",
+        "Description2":"An e commerce website template characterized by user friendly features including streamlined product addition and editing capabilities. - A user friendly system for personalized experiences and efficient ordertracking, enhancing overall fulfillment processes."
     }
+        
+        
 }
